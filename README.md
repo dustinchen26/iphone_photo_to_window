@@ -1,8 +1,8 @@
 # iphone_photo_to_window
 
-## Example
+## How to use
 ```
-code大量iphone照片&影片到windows電腦
+copy大量iphone照片&影片到windows電腦
 
 1. 下載 libimobiledevice.1.2.1-r1122-win-x64.zip
 
@@ -23,10 +23,14 @@ where idevicebackup2
 看到：
 C:\Program Files\libimobiledevice\idevicebackup2.exe
 
-6. iphone傳到windows
+6. 從iphone手機複製照片並且轉檔
+【方法1】
+python iphone_to_PC.py
+
+【方法2】
+//iphone傳到windows
 backup_iphone.py
 
-7. windows轉換成可讀photo&video
+//windows轉換成可讀photo&video
 extract_iphone_media.py
-
 ```
